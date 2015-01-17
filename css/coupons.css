@@ -1,0 +1,295 @@
+@charset "UTF-8";
+
+.coupon-preview
+{
+	background-color: #fff;
+	border: 3px dashed #444;
+	padding: 10px 10px 20px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.coupon-preview span.headline
+{
+	display: block;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	margin: 0 0 10px 0;
+	color: #444;
+}
+
+.coupon-preview span.expiration
+{
+	display: block;
+	color: #555;
+	font-size: 12px;
+	margin: 5px 0 0 0;
+}
+
+.coupon-preview span.fine-print
+{
+	display: block;
+	color: #888;
+	font-size: 10px;
+	line-height: 12px;
+	margin: 20px 0 0 0;
+}
+
+.coupon-preview span.instructions
+{
+	display: block;
+	color: #555;
+	font-size: 14px;
+	line-height: 14px;
+	margin: 10px 0 0 0;
+}
+
+.coupon-preview .vcard
+{
+	margin: 10px 0 0 0;
+	border-top: 1px dotted #bbb;
+	padding: 10px 0 0 0;
+	font-size: 11px;
+}
+
+.coupon-preview .vcard span.org
+{
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+}
+
+.coupon-preview .adr
+{
+	display: inline;
+}
+
+/* SOCIAL COUPON Styles */
+
+div.coupon-buttons
+{
+	padding: 5px 5px 5px 5px;
+	border: 3px dashed #444;
+	border-top: 0;
+	margin: -5px 0 30px 0;
+	background: #eee;
+	text-align: left;
+}
+
+a.print-coupon
+{
+	border: 1px solid #ccc;
+	color: #555 !important;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px #f2f2f2;
+	text-decoration: none !important;
+	padding: 3px 8px 3px 28px;
+	background-color: #eee;
+	background: url(../images/print-coupon-icon.png) 5px 4px no-repeat;
+	background: url(../images/print-coupon-icon.png) 5px 4px no-repeat, -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#ccc));
+	background: url(../images/print-coupon-icon.png) 5px 4px no-repeat, -moz-linear-gradient(top, #f2f2f2, #ccc);
+	background-repeat: no-repeat;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+a.email-coupon
+{
+	border: 1px solid #ccc;
+	color: #555 !important;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px #f2f2f2;
+	text-decoration: none !important;
+	padding: 3px 8px 3px 28px;
+	background-color: #eee;
+	background: url(../images/email-coupon-icon.png) 5px 4px no-repeat;
+	background: url(../images/email-coupon-icon.png) 5px 4px no-repeat, -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#ccc));
+	background: url(../images/email-coupon-icon.png) 5px 4px no-repeat, -moz-linear-gradient(top, #f2f2f2, #ccc);
+	background-repeat: no-repeat;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+a.fb-get-coupon
+{
+	border: 1px solid #ccc;
+	color: #555 !important;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px #f2f2f2;
+	text-decoration: none !important;
+	padding: 3px 8px 3px 28px;
+	background-color: #eee;
+	background: url(../images/email-coupon-icon.png) 5px 4px no-repeat;
+	background: url(../images/email-coupon-icon.png) 5px 4px no-repeat, -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#ccc));
+	background: url(../images/email-coupon-icon.png) 5px 4px no-repeat, -moz-linear-gradient(top, #f2f2f2, #ccc);
+	background-repeat: no-repeat;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	cursor: pointer;
+}
+
+div.email-coupon-div
+{
+	background: #fafafa;
+	border: 3px dashed #444444;
+	border-top: 0;
+	padding: 0;
+	text-align: left;
+	margin: -5px 0 30px 0;
+	_width: 100%; /* IE specific hack for coupon width issue*/
+}
+
+* html div.email-coupon-div{width:100%;background: #eee;border-top:0; } /*IE specific hack for coupon width issue*/
+
+div.email-coupon-div label
+{
+	display: block;
+	margin: 10px 0 3px 0;
+	font-size: 12px;
+	color: #555;
+	font-family: arial;
+	width: 100%;
+	font-weight: bold;
+	clear: both;
+}
+
+div.email-coupon-div input
+{
+	border: 1px solid #AAA;
+	padding: 3px;
+	font-size: 13px;
+	font-family: arial;
+	margin: 0 0 3px 0;
+	display: block;
+	width: 250px;
+	clear: both;
+}
+
+div.email-coupon-div input.btn
+{
+	width: 100px;
+	margin: 0 0 15px 0;
+	font-weight: bold;
+	display:inline;
+	background-color: #eee;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#ccc));
+	background: -moz-linear-gradient(top, #f2f2f2, #ccc);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+*html div.email-coupon-div input.btn{background: #f2f2f2;cursor: pointer;}
+
+div.email-success
+{
+	color: green;
+	background: #eee;
+	border-left: 3px dashed #444;border-right: 3px dashed #444;
+	border-top: 0;
+	padding: 10px 20px 20px 20px;
+	margin-top: -5px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+div.email-success span{font-weight: bold;}
+
+div.fb-coupon-div{
+	padding: 10px;
+	margin: 0;
+	background:#DDF2FA;
+	text-align: left;
+	font-size: 12px;
+	color: #444;
+}
+
+div.fb-coupon-div a.fb_button{margin-right:5px;}
+div.fb-coupon-div a.email-fbcoupon{color:#1D81C1;font-weight:bold;padding-left:4px;cursor:pointer;font-size:14px;text-decoration:underline;}
+div.fb-coupon-div a.cancel-fbcoupon{color:#444;cursor:pointer;font-size:11px;text-decoration:none;float:right;}
+
+div.fb-email-coupon-div{padding:5px 10px;background: #EEE;}
+*html div.fb-email-coupon-div{width:100%;} /* IE specific hack for coupon width issue*/
+
+
+div.coupon-share{
+	color: #444;
+	background: #fff;
+	border-top: 1px solid #ddd;
+	border-left: 3px dashed #444;border-right: 3px dashed #444;border-bottom: 3px dashed #444;
+	margin-bottom:30px;
+}
+div.coupon-share div.post-title{font-size:15px;font-weight:bold;display:block;margin: 0 0 1px 0;padding:15px 15px 5px 15px;color: #555;}
+div.coupon-share div.post-title span.fb_logo{background: url(../images/fb_small_logo.gif) no-repeat bottom left;padding: 0 15px 0 0;margin:0px 3px 0 0;width:20px;}
+div.coupon-share-content{padding:15px 15px 10px 15px;}
+div.coupon-share-postdiv{float:left;clear:right;margin:0 0 0 10px;}
+
+div.coupon-share textarea{font-size:13px;font-weight:normal;display:block;margin:0 0 3px 0;padding:4px;min-width:350px;min-height:40px;color:#555;border: 1px solid #BDC7D8;}
+*html div.coupon-share textarea{width:90%;margin: 0 0 0 -10px;height:60px} /*IE specific hack for coupon width issue*/
+
+div.coupon-share div input.btn
+{
+	width: 60px;
+	margin: 0 0 15px 0;
+	font-weight: bold;
+	border: 1px solid #ccc;
+	color: #555 !important;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px #f2f2f2;
+	text-decoration: none !important;
+	padding: 3px 8px 3px 8px;
+	background-color: #eee;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#ccc));
+	background: -moz-linear-gradient(top, #f2f2f2, #ccc);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+*html div.coupon-share div input.btn{background: #f5f5f5;} /*IE specific hack for coupon width issue*/
+
+/* SOCIAL COUPONS - FACEBOOK Styles */
+a.fb-coupon {}
+
+a.facebook-logout-button
+{
+	margin-left: 15px;
+}
+
+span.facebook-username
+{
+	font-weight: bold;
+	color: #016fa7;
+}
+
+div.fb-coupon-logout-div
+{
+	background: inherit;
+	border: 0px dashed #444444;
+	border-top: 0;
+	padding: 7px 10px 7px 10px;
+	margin: 5px 0;
+	margin-top: -5px;
+	text-align: right;
+	font-size: 13px;
+	color: #777;
+	clear: both;
+}
+
+img.facebook-profile-picture
+{
+	width: 30px;
+	height: 30px;
+	margin-right: 3px;
+}
+
+div.facebook-profile-picture-share {
+	float:left;
+}
+
+div.clear{clear:both!important;}

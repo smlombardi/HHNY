@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>Hungry Heart : Updates</title>
+  <link rel="alternate" href="http://www.hungryheartmanhattanbeach.com/" />
+  <link rel="self" href="http://www.hungryheartmanhattanbeach.com/updates_atom_1_0.xml" />
+  <subtitle>Break the compulsive binge eating cycle with The Hungry Heart’s proven counseling and weight loss programs.  We will teach you how to maintain a healthy eating plan while losing weight safely.</subtitle>
+  <id>http://www.hungryheartmanhattanbeach.com/</id>
+  <rights>Copyright © 2014 Hungry Heart. All rights reserved.</rights>
+  <updated>2014-07-29T14:36:28Z</updated>
+  <dc:title>Hungry Heart : Updates</dc:title>
+  <dc:publisher>Hungry Heart</dc:publisher>
+  <dc:date>2014-07-29T14:36:28Z</dc:date>
+  <dc:type>Text</dc:type>
+  <dc:format>application/atom+xml</dc:format>
+  <dc:language>en-us</dc:language>
+  <dc:rights>Copyright © 2014 Hungry Heart. All rights reserved.</dc:rights>
+</feed>
+

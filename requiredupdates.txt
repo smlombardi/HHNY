@@ -1,0 +1,73 @@
+Required updates:
+- Please note I do not have updated images from the client yet to replace some thumbnails and photos on this site.  They will be supplied as soon as they are ready.  
+For now simply replace the text and leave the images as is until you get the updates from me.
+
+All pages:
+- Modify all phone numbers on the website to 845-797-3564 regardless of the page
+- Modify any references to Manhattan Beach, CA  to  New York
+- Modify any references to Manhattan Beach to  New York
+- Modify any references to California to New York
+
+Contact_us page:
+
+Remove the following text
+
+Our Location
+
+1500 Rosecrans Ave
+Suite 500
+Manhattan Beach, CA 90266
+
+Modify the text 5 Southern California Weight Loss Office Locations to say 2 New York Weight Loss Office Locations
+
+Replace the text in the first 2 addresses under the 5 southern california weight loss office location section with the following addresses:
+
+Mount Kisco
+
+The Hungry Heart
+100 South Bedford Road Suite 340,
+Mount Kisco, NY 10549
+Phone: 914-220-8199
+ 
+Wappingers Falls
+
+The Hungry Heart
+942 Route 376, Summerlin Plaza, 
+Suite 217-A Wappingers Falls, NY 12590
+Phone: 845-797-3564
+
+Remove the rest of the addresses and thumbnails.
+
+Our locations page:
+Replace the 5 southern california weight loss office locations and the addresses below it in the same manner you used for the updates to the contact_us page
+
+our_counselors page:
+Replace Lauren Grant with Jodi Darling
+Replace Lauren's story with Jodi's story
+Replace all text associated with Lauren Grant to the following:
+
+My issues with food and exercise started from unrealistic and negative images of my body. I was consumed with having to maintain an ideal body image. I would spend hours daily at the gym to ensure my weight would remain constant than feel entitled and reward myself by overeating; which would, of course, send me right back to the gym. I was emotionally and physically exhausted trying to keep up with my insane expectations. On the outside I had it all together but, on the inside, I was on an emotional rollercoaster.
+
+I finally stopped running from myself and realized I was avoiding underlying issues. Confronting life and my issues allowed me to become free of my compulsive habits. It is an amazing feeling to be able to look at myself in the mirror and be truly happy with the person looking back at me. I now enjoy exercising on a realistic schedule and making healthy food choices on a daily basis. I eat when I am hungry and stop when I am full. I am proud of my accomplishments and love knowing that I am helping others overcome their own issues. I really admire my clients and put my heart and soul into every appointment. My bachelor’s degree in nutrition and twelve years of experience at a local hospital also contribute greatly in helping my clients succeed.
+
+Replace Aimee Nelson with Angela Schiz
+Replace Aimee's story with Angela's Story
+Replace all text associated with Aimee Nelson to the following:
+
+My sugar cravings began early in childhood when I visited my aunt weekly (who worked for the chocolate company, Russel Stover). The cravings continued through college, where as a nutrition major, I indulged on Snicker’s bars while studying for exams. I realized sugar was an addiction, like any other addiction, and I finally learned to curb my cravings for sugary foods and maintain a healthy diet, weight, and exercise program. 
+
+Holding a bachelor’s degree in nutrition, along with years of experience in clinical and community nutrition, my expertise and knowledge has given me the opportunity to help many people overcome their addictions to food. Whatever the issue might be—whether it’s using food for comfort or a learned behavior from childhood, like mine was—I can tell you, there is a way out of this challenging cycle and we can do it together.
+
+Replace Alisa Crothers with Helene Haber
+Replace Alisa's story with Helene's story
+Replace all text associated with Alisa Crothers to the following:
+
+I grew up in a family of zaftig (which translates roughly into “rather large” in Yiddish) Eastern European women and always thought I would end up jut like my mother, grandmother, and aunts, wearing dresses ranging from size 18-22. At every meal, we had meat and a starch; it wasn’t considered eating in my house unless meat was on the plate. I can remember many Friday nights when a pizza would arrive at our door—mind you this was after a full dinner! It didn’t seem unusual at the time but when I tell people that story they look at me in disbelief.
+
+I realized at 12 years old, if I didn’t change my lifestyle, my destiny would be the same as theirs—and I knew for sure that I did not want that life for me. What I wanted most was to lose the weight I needed and not be obsessed with the next thing I was going to eat. I discovered that by treating myself with kindness, I was able to lose weight and be healthy. One of the most important things I learned through the process was to think of myself as a trusted friend—especially after eating way too much of the wrong foods. What we say to ourselves matters most. We can choose to beat ourselves up or get out of our own way and realize that it was one snack, one meal, one weekend, and move forward, treating ourselves as we deserve to be treated. We need to choose to be good to ourselves.
+
+I am so excited to be able to work with my clients to help them discover their core issues around food and lifestyle so they can come to peace with themselves and feel secure and centered. I believe that the single most important ingredient for successful weight loss is to believe in yourself and possess a positive attitude.
+
+I am a certified nutrition counselor by the American Association of Drugless Practitioners and Coach University and received a bachelor’s degree as a double major in communications and economics.
+
+

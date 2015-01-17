@@ -1,0 +1,178 @@
+/* Custom CSS for Form Builder for Yodle CMS 2.0 */
+
+.formDropHover{background-color:#EBEBEB;}
+.formDragging{border:2px solid green;}
+
+#yodlecms_formbuildercanvas form {
+	font-family: Lucida Grande,Lucida Sans Unicode,Trebuchet MS; font-style: normal; text-decoration: none;
+	margin: 0 auto;
+	
+} 
+
+div.yodlecms_formbuilderoptions {
+	background: #edffef;
+	border-top: 2px solid green;
+}
+div.yodlecms_contactform{background: inherit!important;}
+div.yodlecms_contactform ul.yodlecms_formelements  {padding: 0px;margin: 0;border: 0px dashed #ddd;}
+div.yodlecms_contactform ul.yodlecms_formelements li {list-style-type: none;padding: 0;margin: 0;}
+div.yodlecms_contactform ul.yodlecms_formelements li:hover{cursor: pointer;}
+div.yodlecms_contactform ul.empty{min-height: 200px;background: url(../img/addformelementsBg.png) no-repeat center; }
+div.yodlecms_contactform ul.filled{background:none; }
+div.yodlecms_contactform div.editfields {
+	display: none;
+	font-family: Lucida Grande,Lucida Sans Unicode,Trebuchet MS; font-style: normal; text-decoration: none; font-size: 11px;color:#333;
+	padding: 3px;
+	z-index: 10000;	
+	clear: both;
+	line-height: 24px;
+	background-color:#fff4bf; 
+	padding-left: 6px;
+	font-weight: bold;
+	-moz-border-radius: 6px;-webkit-border-radius: 6px;	
+	/*
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;	
+	background-image: url(../img/icon_formedit.png) 3px 7px no-repeat;
+	padding-left: 25px;
+	*/
+}
+div.yodlecms_contactform input,div.yodlecms_contactform textarea{clear: both;}
+div.yodlecms_contactform label
+{
+    padding:20px 0 2px 0;
+    font-size:inherit!important;
+    display: block;
+    font-family: inherit!important;
+    font-size: inherit!important;
+    color: inherit!important;
+    font-style: inherit!important;
+    text-decoration: inherit!important;
+}
+
+div.editfields input, textarea {border: 1px solid #ddd; padding: 1px;margin-right: 10px;font-family: Lucida Grande,Lucida Sans Unicode,Trebuchet MS; font-style: normal; text-decoration: none;font-size: 11px;color: #333;}
+div.yodlecms_contactform div.editfields textarea.expanding{width: 100px;height: 15px;}
+div.yodlecms_contactform div.editfields a.save {color: green;margin: 0 5px;font-weight: bold;}
+div.yodlecms_contactform div.editfields a.delete {color: red;margin: 0 5px;font-weight: bold;}
+/* Custom Submit Buttons for Contact Form */
+div.yodlecms_contactform input[type=submit],input[type=button],button {margin: 20px 0 0 0;}
+
+
+#formControllerZone
+{
+    border:1px solid #F0F0F0;
+    background: #edffef url(../images/sm_back_mac.gif);
+    border-top: 1px solid green;
+	font-family: Lucida Grande,Lucida Sans Unicode,Trebuchet MS; font-style: normal; text-decoration: none;
+}
+#tableFormController thead th
+{
+    font-size:12px;
+    font-weight: bold;
+    padding: 8px;
+    
+}
+#tableFormController th,
+#tableFormController td{padding: 2px 2px;}
+#tableFormController tbody th
+{
+    text-align: right;
+    white-space:nowrap;
+    padding:4px 4px;
+    font-size: 16px;
+}
+#formControllerMHS
+{
+    width: 750px;
+    margin: 0  auto;
+	font-family: Lucida Grande,Lucida Sans Unicode,Trebuchet MS; font-style: normal; text-decoration: none;
+}
+#tableFormController th a
+{
+    font-size:11px;
+    text-decoration:underline;
+    padding:4px 4px;
+}
+#formControllerLHS{}
+#formControllerRHS{}
+
+form{margin: 0;}
+input.ajaxText, input.ajaxPwd, input.ajaxRadio, input.ajaxCheckbox, input.ajaxFile
+{
+}
+
+textarea.ajaxTextarea{}
+input.text,select.ajaxMenu, select.select{font: 12px Arial, Helvetica, sans-serif;}
+input.button
+{
+    color: #FFFFFF;
+    background-color: #ADD8E6;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+input.ajaxButton
+{
+    font: bold 12px Arial, Helvetica, sans-serif;
+    font-family: Lucida Grande,Lucida Sans Unicode,Trebuchet MS; font-style: normal; text-decoration: none;
+}
+
+#formControllerMHS a.propertySave {display: none;}
+#formControllerMHS a.propertyClose {padding: 30px;}
+
+
+/* Custom CSS for Column Layout */
+div.yodlecms_column {float:left;margin: 0;padding: 0;}
+div.yodlecms_column {
+	float:left!important;
+	padding:0px!important;
+}
+ 
+div.yodlecms_column.yodlecms_col_right1, div.yodlecms_column.yodlecms_col_right2 {margin-left:-4px!important;border-left:0px!important;}
+
+
+.yodlecms_formErrorDiv
+{
+	margin: 5px 0;
+	border:0px solid #c00;
+	width:20em;
+	font-size: 12px!important;
+	color: red!important;
+	font-family: inherit;
+}    
+.yodlecms_formError
+{
+	background:#ffe8e8;
+	border: 1px solid red;
+}
+
+.user_Heading1
+{
+       font-size: xx-large;
+       font-weight: bold;
+}
+
+.user_Heading2
+{
+       font-size: x-large;
+       font-weight: bold;
+}
+
+.user_Heading3
+{
+       font-size: large;
+       font-weight: bold;
+}
+
+.user_Heading4
+{
+       font-size: medium;
+       font-weight: bold;
+}
+
+.user_Heading5
+{
+       font-size: small;
+       font-weight: bold;
+}
+

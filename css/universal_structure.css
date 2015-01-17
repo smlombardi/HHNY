@@ -1,0 +1,199 @@
+/*==============================================
+Universal Grid Structure
+================================================*/
+
+/*=== NOTE: 960 Grid is modified below to use percentages ===*/
+
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+
+  Note: IE6 works fine without this fix.
+*/
+
+body{ min-width: 960px;}
+
+/* `Container
+----------------------------------------------------------------------------------------------------*/
+
+.container_12{ margin-left: auto;
+  margin-right: auto;
+  width: 960px;}
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12{ display: inline; float: left; margin-left: 1.0417%; margin-right: 1.0417%; }
+
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.push_10, .pull_10,
+.push_11, .pull_11{ position: relative;}
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha{ margin-left: 0;}
+
+.omega{ margin-right: 0;}
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.grid_1  { width: 6.25%;   }
+.grid_2  { width: 14.583%; }
+.grid_3  { width: 22.917%; }
+.grid_4  { width: 31.25%;  }
+.grid_5  { width: 39.583%; }
+.grid_6  { width: 47.917%; }
+.grid_7  { width: 56.26%;  }
+.grid_8  { width: 64.583%; }
+.grid_9  { width: 72.917%; }
+.grid_10{ width: 81.25%;  }
+.grid_11{ width: 89.583%; }
+.grid_12{ width: 97.917%; }
+
+/* `Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.prefix_1  { padding-left: 8.333%;  } /*{ padding-left: 80px; }     */
+.prefix_2  { padding-left: 16.667%; } /*{ padding-left: 160px;}    */
+.prefix_3  { padding-left: 25%;     } /*{ padding-left: 240px;}    */
+.prefix_4  { padding-left: 33.333%; } /*{ padding-left: 320px;}    */
+.prefix_5  { padding-left: 41.667%; } /*{ padding-left: 400px;}    */
+.prefix_6  { padding-left: 50%;     } /*{ padding-left: 480px;}    */
+.prefix_7  { padding-left: 58.333%; } /*{ padding-left: 560px;}    */
+.prefix_8  { padding-left: 66.667%; } /*{ padding-left: 640px;}    */
+.prefix_9  { padding-left: 75%;     } /*{ padding-left: 720px;}    */
+.prefix_10{ padding-left: 83.333%; } /*{ padding-left: 800px;}     */
+.prefix_11{ padding-left: 91.667%; } /*{ padding-left: 880px;}     */
+
+/* `Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.suffix_1  { padding-right: 8.333%;  }
+.suffix_2  { padding-right: 16.667%; }
+.suffix_3  { padding-right: 25%;     }
+.suffix_4  { padding-right: 33.333%; }
+.suffix_5  { padding-right: 41.667%; }
+.suffix_6  { padding-right: 50%;     }
+.suffix_7  { padding-right: 58.333%; }
+.suffix_8  { padding-right: 66.667%; }
+.suffix_9  { padding-right: 75%;     }
+.suffix_10{ padding-right: 83.333%; }
+.suffix_11{ padding-right: 91.667%; }
+
+/* `Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.push_1  { left: 8.333%;  }
+.push_2  { left: 16.667%; }
+.push_3  { left: 25%;     }
+.push_4  { left: 33.333%; }
+.push_5  { left: 41.667%; }
+.push_6  { left: 50%;     }
+.push_7  { left: 58.333%; }
+.push_8  { left: 66.667%; }
+.push_9  { left: 75%;     }
+.push_10{ left: 83.333%; }
+.push_11{ left: 91.667%; }
+
+/* `Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.pull_1  { left: -8.333%;  }
+.pull_2  { left: -16.667%; }
+.pull_3  { left: -25%;     }
+.pull_4  { left: -33.333%; }
+.pull_5  { left: -41.667%; }
+.pull_6  { left: -50%;     }
+.pull_7  { left: -58.333%; }
+.pull_8  { left: -66.667%; }
+.pull_9  { left: -75%;     }
+.pull_10{ left: -83.333%; }
+.pull_11{ left: -91.667%; }
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear{ clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after,
+.container_12:before,
+.container_12:after{ content: '.'; display: block; overflow: hidden; visibility: hidden; font-size: 0; line-height: 0; width: 0; height: 0; }
+
+.clearfix:after,
+.container_12:after{ clear: both;}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix,
+.container_12{ zoom: 1;}
+
+
+
+/*==============================================
+Footer Widget Structure
+================================================*/
+
+/* General */
+.section-footer { margin-top: 1.5em; padding-top:2em; padding-bottom: 2em; margin-left: auto; margin-right:auto; }
+
+.section-footer .links { overflow: hidden; float: left; list-style: none; line-height: 1em; margin: 0; padding: 0; padding-bottom: .1em; }
+	.section-footer .links-item { float: left; border-left: 1px solid; background: none; padding: 0 1em; margin: 0; display: inline; margin-bottom: 1em; }
+		.section-footer .links-item:first-child { padding-left: 0; border-left: none; background: none; }
+
+.section-footer .module { clear: both; overflow: hidden; }
+
+/* left column */
+.section-footer .grid_9 { font-size: 12px; text-align: left; }
+	.section-footer .nav { overflow: hidden; padding-bottom: 0.5em; border-bottom: 1px solid; margin-bottom: 1em;}
+
+	.section-footer .site-links { padding-left: 1em; font-size: 11px; }
+		.section-footer .copyright { float: left; font-size: 11px; line-height: 1em; }
+
+	.section-footer .disclaimer { font-size: 11px; line-height: 1.5em; margin-top: 1.5em; }
+
+/* right column */
+.section-footer .grid_3 { text-align: right; font-size: 12px; overflow: hidden; }
+	.section-footer .contact-info { line-height: 1.5em; }
+		.section-footer .contact-info .org { font-weight: bold; }
+
+
+
+
+/*==============================================
+Footer Widget Structure - IE6 fixes
+================================================*/
+
+/* need to target something other */
+/* change to .omega */
+.section-footer .grid_3 { margin-right: -1.0417%; }
