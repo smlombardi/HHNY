@@ -16,9 +16,7 @@ body {
 	width: 100%; margin: 0;
 }
 
-#errorfour {
-	-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
-	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3); -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3); box-shadow: 0 0 10px rgba(0,0,0,0.3);
+#errorfour { border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	background: #FFF;
 	width: 500px;
 	margin: 200px auto 0;
@@ -293,15 +291,15 @@ html.ie7 .topnav ul li, html.ie7 .foot-left p, html.ie7 .social, html.ie7 .socia
 	line-height: 0;
 	height: 0;
 }
- 
+
 .clearfix {
 	display: inline-block;
 }
- 
+
 html[xmlns] .clearfix {
 	display: block;
 }
- 
+
 * html .clearfix {
 	height: 1%;
 }
