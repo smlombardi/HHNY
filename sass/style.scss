@@ -714,37 +714,45 @@ p.more a {
 
 .social li {
   display: inline-block;
-  width: 25px;
-  margin: 0 0 0 4px;
+  width: 26px;
+  height: 25px;
+  margin: 0 5px 0 0;
   overflow: hidden;
-  &:first-child {
-    margin: 0;
-  }
+
   a {
     display: block;
-    background: url('../images/social-icons-header.png') no-repeat left top;
-    color: transparent !important;
-    height: 25px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    color: transparent;
+    &:hover {
+      color: transparent;
+    }
   }
   &.facebook a {
-    background-position: left top;
-    &:hover {
-      background-position: left -25px;
-    }
+	  background-image:url('../images/facebook.png');
   }
   &.twitter a {
-    background-position: -25px top;
-    &:hover {
-      background-position: -25px -25px;
-    }
+    background-image: url('../images/twitter.png');
+  }
+  &.youtube a {
+    background-image: url('../images/youtube.png');
+  }
+  &.pinterest a {
+    background-image: url('../images/pinterest.png');
+  }
+  &.instagram a {
+    background-image: url('../images/instagram.png');
+  }
+  &.linkedin a {
+    background-image: url('../images/linkedin.png');
   }
 }
 
 #footer .social {
-  margin-left: 15px;
-  li a {
-    background-image: url('../images/social-icons-footer.png');
-  }
+  margin: 15px 0;
+//   li a {
+//     background-image: url('../images/social-icons-footer.png');
+//   }
 }
 
 //* MAP */
